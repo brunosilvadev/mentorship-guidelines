@@ -1,0 +1,26 @@
+/* Light mode */
+:root {
+    --body-bg: #FFFFFF;
+    --body-color: #000000;
+ }
+ 
+ /* Dark mode */
+ @media (prefers-color-scheme: dark) {
+    :root {
+        --body-bg: #252525;
+        --body-color: #FFFFFF;
+    }
+ }
+
+* { 
+    background: var(--body-bg);
+    color: var(--body-color);
+    text-align: center;
+}
+ul {
+    list-style: none;
+    font-size:larger;
+}
+li{
+    margin-top: 15px;
+}
